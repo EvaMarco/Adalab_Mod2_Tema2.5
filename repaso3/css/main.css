@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #454545;
+}
+.title{  
+    padding:10px;
+    border-bottom: 1px solid #454545;
+}
+
+.ex-link{
+    padding:10px;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+.header{
+    background-color: #cccccc;
+}
+
+.result{
+    margin: 20px auto;
+    color:tomato;
+    background-color: lightskyblue;
+    line-height: 30px;
+    height:40px;
+}
+.btnclick{
+    background-color:lightseagreen;
+    color: seagreen;
+}
