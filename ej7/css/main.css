@@ -27,7 +27,25 @@ body{
     margin: 20px auto;
     color:tomato;
 }
-.btn1{
+.list{
+    list-style: none;
+}
+.list_item{
+    border: solid 1px grey;
+}
+.sea{
     background-color:lightseagreen;
     color: white;
+}
+.red{
+    background-color:tomato;
+    color: white;
+}
+.green{
+    background-color:lightgreen;
+    color: black;
+}
+.blue{
+    background-color:aqua;
+    color: black;
 }
