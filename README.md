@@ -2,4 +2,4 @@
 
 En este Tema estudiamos los eventos de JS. El html solo nos sirve de soporte para poder previsualizar los ejercicios, no estan enfocados a ser realmente visuales.
 
-Estan solucionados hasta el ejercicio 8 por ahora, al final he añadido unos ejercicios de repaso que hizo el profesor en clase y un documento con alguna explicación más.
+Al final he añadido unos ejercicios de repaso que hizo el profesor en clase y un documento con alguna explicación más.
