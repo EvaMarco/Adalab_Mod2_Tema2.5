@@ -1,11 +1,13 @@
 'use strict';
 
+const link1 = document.querySelector('.nav__link1');
+const link2 = document.querySelector('.nav__link2');
+const link3 = document.querySelector('.nav__link3');
 
-const button= document.querySelector('.btn');
-const text= document.querySelector('.text');
+function ignore (event){
+    event.preventDefault()
+}
 
-function hola(){
-    text.innerHTML = `Mi primer click, ¡ole yo y la mujer que me parió`;
-    text.classList.add('resultado');
-};
-button.addEventListener('click', hola);
+link1.addEventListener('click', ignore);
+link2.addEventListener('click', ignore);
+link3.addEventListener('click', ignore);

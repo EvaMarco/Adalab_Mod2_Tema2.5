@@ -6,23 +6,6 @@ const button3= document.querySelector('.btn_3');
 const button4= document.querySelector('.btn_4');
 const button5= document.querySelector('.btn_5');
 
-// function bgcolor(event){
-//     button1.classList.remove('btn1');
-//     button2.classList.remove('btn1');
-//     button3.classList.remove('btn1');
-//     button4.classList.remove('btn1');
-//     button5.classList.remove('btn1');
-//     const selectedButton = event.currentTarget;
-//     selectedButton.classList.toggle('btn1');
-// };
-
-// button1.addEventListener('click', bgcolor);
-// button2.addEventListener('click', bgcolor);
-// button3.addEventListener('click', bgcolor);
-// button4.addEventListener('click', bgcolor);
-// button5.addEventListener('click', bgcolor);
-
-
 function bgcolor(event){
     button1.classList.remove('btn1');
     button2.classList.remove('btn1');
@@ -32,6 +15,5 @@ function bgcolor(event){
     const selectedButton = event.target;
     selectedButton.classList.toggle('btn1');
 };
-
 
 document.addEventListener('click', bgcolor);

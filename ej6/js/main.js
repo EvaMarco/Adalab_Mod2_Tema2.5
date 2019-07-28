@@ -7,7 +7,6 @@ function writeInstant(event) {
   console.log(event.currentTarget);
   const inputValue = event.currentTarget.value;
   result.innerHTML = inputValue;
-
 }
 
 input.addEventListener('keyup', writeInstant);
